@@ -1,5 +1,5 @@
 ﻿<?xml version='1.0' encoding='UTF-8'?>
-<Project Type="Project" LVVersion="10008000">
+<Project Type="Project" LVVersion="14008000">
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Property Name="utf.calculate.project.code.coverage" Type="Bool">false</Property>
@@ -149,23 +149,136 @@
 		</Item>
 		<Item Name="Current Value Table.lvlib" Type="Library" URL="../source/vi.lib/NI/Current Value Table/Current Value Table.lvlib"/>
 		<Item Name="CurrentValueTable-errors.txt" Type="Document" URL="../source/project/errors/CurrentValueTable-errors.txt"/>
+		<Item Name="UnitTests.lvlib" Type="Library" URL="../../Tests/UnitTests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="Array of Boolean_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of Boolean_Memory Block.vi"/>
+				<Item Name="Array of Boolean_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of Boolean_Read Index Set.vi"/>
+				<Item Name="Array of Boolean_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of Boolean_Write Index Set.vi"/>
+				<Item Name="Array of Double_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of Double_Memory Block.vi"/>
+				<Item Name="Array of Double_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of Double_Read Index Set.vi"/>
+				<Item Name="Array of Double_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of Double_Write Index Set.vi"/>
+				<Item Name="Array of I8_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of I8_Memory Block.vi"/>
+				<Item Name="Array of I8_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of I8_Read Index Set.vi"/>
+				<Item Name="Array of I8_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of I8_Write Index Set.vi"/>
+				<Item Name="Array of I16_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of I16_Memory Block.vi"/>
+				<Item Name="Array of I16_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of I16_Read Index Set.vi"/>
+				<Item Name="Array of I16_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of I16_Write Index Set.vi"/>
+				<Item Name="Array of I32_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of I32_Memory Block.vi"/>
+				<Item Name="Array of I32_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of I32_Read Index Set.vi"/>
+				<Item Name="Array of I32_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of I32_Write Index Set.vi"/>
+				<Item Name="Array of I64_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of I64_Memory Block.vi"/>
+				<Item Name="Array of I64_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of I64_Read Index Set.vi"/>
+				<Item Name="Array of I64_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of I64_Write Index Set.vi"/>
+				<Item Name="Array of Single_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of Single_Memory Block.vi"/>
+				<Item Name="Array of Single_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of Single_Read Index Set.vi"/>
+				<Item Name="Array of Single_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of Single_Write Index Set.vi"/>
+				<Item Name="Array of String_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of String_Memory Block.vi"/>
+				<Item Name="Array of String_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of String_Read Index Set.vi"/>
+				<Item Name="Array of String_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of String_Write Index Set.vi"/>
+				<Item Name="Array of U8_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of U8_Memory Block.vi"/>
+				<Item Name="Array of U8_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of U8_Read Index Set.vi"/>
+				<Item Name="Array of U8_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of U8_Write Index Set.vi"/>
+				<Item Name="Array of U16_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of U16_Memory Block.vi"/>
+				<Item Name="Array of U16_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of U16_Read Index Set.vi"/>
+				<Item Name="Array of U16_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of U16_Write Index Set.vi"/>
+				<Item Name="Array of U32_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of U32_Memory Block.vi"/>
+				<Item Name="Array of U32_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of U32_Read Index Set.vi"/>
+				<Item Name="Array of U32_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of U32_Write Index Set.vi"/>
+				<Item Name="Array of U64_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of U64_Memory Block.vi"/>
+				<Item Name="Array of U64_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of U64_Read Index Set.vi"/>
+				<Item Name="Array of U64_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Array of U64_Write Index Set.vi"/>
+				<Item Name="Boolean_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Boolean_Memory Block.vi"/>
+				<Item Name="Boolean_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Boolean_Read Index Set.vi"/>
+				<Item Name="Boolean_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Boolean_Write Index Set.vi"/>
 				<Item Name="compatCalcOffset.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatCalcOffset.vi"/>
 				<Item Name="compatFileDialog.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatFileDialog.vi"/>
 				<Item Name="compatOpenFileOperation.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatOpenFileOperation.vi"/>
+				<Item Name="Create Tags.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Create Tags.vi"/>
+				<Item Name="CVT Globals.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/FGVs/CVT Globals.vi"/>
+				<Item Name="CVT I32 StaticRead.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Compatibility/CVT I32 StaticRead.vi"/>
+				<Item Name="CVT I32 StaticWrite.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Compatibility/CVT I32 StaticWrite.vi"/>
+				<Item Name="CVT Init.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Compatibility/CVT Init.vi"/>
+				<Item Name="Data Types.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Type Defs/Data Types.ctl"/>
+				<Item Name="Double_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Double_Memory Block.vi"/>
+				<Item Name="Double_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Double_Read Index Set.vi"/>
+				<Item Name="Double_Read Index.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Double_Read Index.vi"/>
+				<Item Name="Double_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Double_Write Index Set.vi"/>
+				<Item Name="File Format.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Type Defs/File Format.ctl"/>
 				<Item Name="FindCloseTagByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindCloseTagByName.vi"/>
 				<Item Name="FindElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElement.vi"/>
 				<Item Name="FindElementStartByName.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindElementStartByName.vi"/>
 				<Item Name="FindEmptyElement.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindEmptyElement.vi"/>
 				<Item Name="FindFirstTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindFirstTag.vi"/>
 				<Item Name="FindMatchingCloseTag.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/FindMatchingCloseTag.vi"/>
+				<Item Name="Form Single Group.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Form Single Group.vi"/>
+				<Item Name="Get Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Get Index Set.vi"/>
+				<Item Name="Group Data.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Type Defs/Group Data.ctl"/>
+				<Item Name="Group Memory.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/FGVs/Group Memory.vi"/>
+				<Item Name="Group Tags.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Group Tags.vi"/>
+				<Item Name="High Resolution Relative Seconds.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Relative Seconds.vi"/>
+				<Item Name="I8_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/I8_Memory Block.vi"/>
+				<Item Name="I8_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/I8_Read Index Set.vi"/>
+				<Item Name="I8_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/I8_Write Index Set.vi"/>
+				<Item Name="I16_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/I16_Memory Block.vi"/>
+				<Item Name="I16_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/I16_Read Index Set.vi"/>
+				<Item Name="I16_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/I16_Write Index Set.vi"/>
+				<Item Name="I32_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/I32_Memory Block.vi"/>
+				<Item Name="I32_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/I32_Read Index Set.vi"/>
+				<Item Name="I32_Read Index.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/I32_Read Index.vi"/>
+				<Item Name="I32_Read.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/I32_Read.vi"/>
+				<Item Name="I32_Static Read.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/I32_Static Read.vi"/>
+				<Item Name="I32_Static Write.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/I32_Static Write.vi"/>
+				<Item Name="I32_Type To Enum.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/I32_Type To Enum.vi"/>
+				<Item Name="I32_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/I32_Write Index Set.vi"/>
+				<Item Name="I32_Write Index.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/I32_Write Index.vi"/>
+				<Item Name="I64_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/I64_Memory Block.vi"/>
+				<Item Name="I64_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/I64_Read Index Set.vi"/>
+				<Item Name="I64_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/I64_Write Index Set.vi"/>
+				<Item Name="List Grouped Tags.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/List Grouped Tags.vi"/>
+				<Item Name="Load Tags.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Load Tags.vi"/>
+				<Item Name="Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Memory Block.vi"/>
 				<Item Name="Open_Create_Replace File.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/Open_Create_Replace File.vi"/>
 				<Item Name="ParseXMLFragments.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/ParseXMLFragments.vi"/>
 				<Item Name="Read From XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(array).vi"/>
 				<Item Name="Read From XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File(string).vi"/>
 				<Item Name="Read From XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Read From XML File.vi"/>
+				<Item Name="Read Grouped Tags.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Read Grouped Tags.vi"/>
+				<Item Name="Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Read Index Set.vi"/>
+				<Item Name="Read Index.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Read Index.vi"/>
+				<Item Name="Read tags into grouped data.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Read tags into grouped data.vi"/>
+				<Item Name="Read.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Read.vi"/>
+				<Item Name="Save Current Value Table To Disk.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Save Current Value Table To Disk.vi"/>
+				<Item Name="Single Tag.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Type Defs/Single Tag.ctl"/>
+				<Item Name="Single_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Single_Memory Block.vi"/>
+				<Item Name="Single_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Single_Read Index Set.vi"/>
+				<Item Name="Single_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/Single_Write Index Set.vi"/>
+				<Item Name="Static Read.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Static Read.vi"/>
+				<Item Name="Static Write.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Static Write.vi"/>
+				<Item Name="String_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/String_Memory Block.vi"/>
+				<Item Name="String_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/String_Read Index Set.vi"/>
+				<Item Name="String_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/String_Write Index Set.vi"/>
+				<Item Name="Tag Grouping set.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Type Defs/Tag Grouping set.ctl"/>
+				<Item Name="Tag Memory.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/FGVs/Tag Memory.vi"/>
+				<Item Name="TagConverter.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Compatibility/TagConverter.vi"/>
+				<Item Name="Type to Enum.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Type to Enum.vi"/>
+				<Item Name="U8_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/U8_Memory Block.vi"/>
+				<Item Name="U8_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/U8_Read Index Set.vi"/>
+				<Item Name="U8_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/U8_Write Index Set.vi"/>
+				<Item Name="U16_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/U16_Memory Block.vi"/>
+				<Item Name="U16_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/U16_Read Index Set.vi"/>
+				<Item Name="U16_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/U16_Write Index Set.vi"/>
+				<Item Name="U32_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/U32_Memory Block.vi"/>
+				<Item Name="U32_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/U32_Read Index Set.vi"/>
+				<Item Name="U32_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/U32_Write Index Set.vi"/>
+				<Item Name="U64_Memory Block.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/U64_Memory Block.vi"/>
+				<Item Name="U64_Read Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/U64_Read Index Set.vi"/>
+				<Item Name="U64_Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/DataTypes/U64_Write Index Set.vi"/>
+				<Item Name="Write grouped data to tags.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Write grouped data to tags.vi"/>
+				<Item Name="Write Grouped Tags.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Write Grouped Tags.vi"/>
+				<Item Name="Write Index Set.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Write Index Set.vi"/>
+				<Item Name="Write Index.vi" Type="VI" URL="/&lt;vilib&gt;/NI/Current Value Table/Write Index.vi"/>
 				<Item Name="Write to XML File(array).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(array).vi"/>
 				<Item Name="Write to XML File(string).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File(string).vi"/>
 				<Item Name="Write to XML File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/xml.llb/Write to XML File.vi"/>
@@ -173,6 +286,7 @@
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="CVT3" Type="Source Distribution">
+				<Property Name="Bld_buildCacheID" Type="Str">{F5FB0CB5-36F0-4594-82E4-CE4B4D67F06E}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">CVT3</Property>
 				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
 				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
@@ -186,6 +300,8 @@
 				<Property Name="Bld_excludedDirectoryCount" Type="Int">5</Property>
 				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/CVT.llb</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{F58045AA-65EA-416D-9316-B84763F77902}</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
 				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/CVT.llb</Property>
 				<Property Name="Destination[0].type" Type="Str">LLB</Property>
