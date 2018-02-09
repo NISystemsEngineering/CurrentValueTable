@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2012-08-20 16:58:45" Modified_Date="2018-02-08 20:16:53" Creator="Blueuser" Comments="" ID="cdffd08b919d5fa50189aabcfd3b09b1">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2012-08-20 16:58:45" Modified_Date="2018-02-09 12:01:05" Creator="Blueuser" Comments="" ID="2cc279cff749e65b0f52762e7d5fc3c9">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_cvt</Package_File_Name>
-    <Library_Version>3.3.0.15</Library_Version>
+    <Library_Version>4.0.0.1</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\export</Library_Output_Folder>
@@ -49,16 +49,8 @@ http://forums.ni.com/t5/Components/Current-Value-Table-CVT/m-p/583424</Descripti
       <Copyright/>
       <Packager>National Instruments</Packager>
       <URL/>
-      <Release_Notes>Added support for array data types.
-
-Minor bug fixes from (https://decibel.ni.com/content/docs/DOC-37445):
-11/3/2013	3.3.0	Some .ctl files are strict type definitions rather than standard type definitions
-7/2014	3.2.0	Delete group.vi and Group Tags.vi have the same description
-2/24/2014	3.3.0	"Save Grouped Tags to Disk" will save a group with 0 tags in it, but "Load Tags" will throw an error when trying to load that group. I found this bug when I accidentally provided the wrong group name to the Save function. While that was my fault, I think that if the Save function is allowed to save a group with no tags, the corresponding Load function shouldn't throw an error when it encounters that group.
-
-Also:
-Removed "template" functions from library.
-</Release_Notes>
+      <Release_Notes>Migrated to 2014.
+New Versions of CCC Need this version</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -355,7 +347,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>vi.lib\NI\Current Value Table\Load Tags.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>F6746CDFCBAAE36A36B0D85D40D44A51</GUID>
+      <GUID>FF7403D67E0C00AB00924BB565FC46C6</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -460,7 +452,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>vi.lib\NI\Current Value Table\Get Index and Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>25EFBAAA5550A805D831DA5BDD0E4AAE</GUID>
+      <GUID>D3FBB1564C2C28372325905F12CC5E42</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -537,7 +529,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>vi.lib\NI\Current Value Table\Save Current Value Table To Disk.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>3F1D8E2CF61A7AF4B7FE0C6F16DA5AB6</GUID>
+      <GUID>6B4FD34FB5DBCA8419BE24E78BC6E474</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -684,7 +676,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>vi.lib\NI\Current Value Table\Delete Group.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6A447E6172D5226A022BE1DF73766E41</GUID>
+      <GUID>80EC91B7D551F9246DEFFE4AC29ECBFC</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -761,7 +753,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>vi.lib\NI\Current Value Table\Examples\Utility Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2C396440C447C7531C969364C7364F98</GUID>
+      <GUID>E836C7973A160BF7AF8A9AA109508EE0</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
   <Library_Palette_Definition>
@@ -896,7 +888,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>Advanced Tag Access</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>9DA0740C473D84E15E1D43ED3935D506</GUID>
+      <GUID>2DAEAE9779FB4A038C8D6A34F837A689</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -973,7 +965,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>vi.lib\NI\Current Value Table\Examples\Utility Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>370DA3C1393E232ACE3A34230A4FE535</GUID>
+      <GUID>B47BAF1D42E695320D4ABEF51E44058D</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1120,7 +1112,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>vi.lib\NI\Current Value Table\Delete Group.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>89E47AE6F254CF16BD16C0726D9A3355</GUID>
+      <GUID>B0FF41D02252EB7EA47062978E097951</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1197,7 +1189,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>vi.lib\NI\Current Value Table\Read Tag Description.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>981A7B00148DF0F5BF6F2C7CC814F30E</GUID>
+      <GUID>3DBBACC2FBB378D4634D31B89800FE30</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1302,7 +1294,7 @@ Unless required by applicable law or agreed to in writing, software distributed 
         <Path>vi.lib\NI\Current Value Table\Get Index and Type.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>252210ED64E85A6848990700BC77FC39</GUID>
+      <GUID>88B13D113770B72D71C2C63C00AF62EB</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
